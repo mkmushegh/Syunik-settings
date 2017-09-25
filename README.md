@@ -4,10 +4,11 @@ Set up Syunik mining rigs on Linux 16.04.3
 INSTALLATION
 
 1. You need to install NVIDIA drivers on Ubuntu 16.04.3:
-
+    ```
     sudo add-apt-repository ppa:graphics-drivers/ppa 
     sudo apt-get update
     sudo apt-get install nvidia-384
+    ```  
     restart Ubuntu
     
 2. Enable Overclocking:
@@ -46,4 +47,6 @@ INSTALLATION
         
     Restart Ubuntu
     
-3. 
+3. Change all necessary settings in sh files and make them boot with the system
+
+Good Luck!
