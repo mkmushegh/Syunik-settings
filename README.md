@@ -12,11 +12,12 @@ INSTALLATION
     restart Ubuntu
     
 2. Enable Overclocking:
-
+    ```
+    sudo nvidia-xconfig -a --cool-bits=31 --allow-empty-initial-configuration --enable-all-gpus
     sudo gedit /etc/X11/xorg.conf
-    Add following options:
+    ```
+    Add following option:
     
-        Option	   "Coolbits" "31"
         Option     "RegistryDwords" "PerfLevelSrc=0x2222"
         
     You will end up with something like this:
