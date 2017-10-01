@@ -57,3 +57,7 @@ INSTALLATION
     time you need to put oc1070.sh in Startup Programs too.
 
 Good Luck!
+
+If you find this information useful, donation is always encouraged
+zcash: t1RJ3hvzPQsVHe89yjiTo9XbyfFMbCz8EKa
+ether: 0x5a85142238158314f20aeda623e7e56908fc8a3c
