@@ -49,5 +49,11 @@ INSTALLATION
     Restart Ubuntu
     
 3. Change all necessary settings in sh files and make them boot with the system
+    
+    Here you have to be careful with OC settings as it's depend on what you are mining and GPU
+    In this example there are settings for ASUS GTX 1070 8gb Gameing and ASUS GTX 1070 8gb OC edition
+    In oc1070.sh there are some commands that need to be run as root at startup, so its highly recommended
+    to make them load on boot as root. To do so, you need to put them to /etc/rc.local file. But at the same
+    time you need to put oc1070.sh in Startup Programs too.
 
 Good Luck!
