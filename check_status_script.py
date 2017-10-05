@@ -54,7 +54,7 @@ def send_email():
       server.starttls()
 
       #Next, log in to the server
-      server.login("soltiteam", "Syunik1234")
+      server.login("soltiteam", "")
 
       #Send the mail
       sent_from = 'soltiteam@gmail.com'
