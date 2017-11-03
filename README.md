@@ -53,8 +53,26 @@ INSTALLATION
     Here you have to be careful with OC settings as it's depend on what you are mining and GPU
     In this example there are settings for ASUS GTX 1070 8gb Gameing and ASUS GTX 1070 8gb OC edition
     In oc1070.sh there are some commands that need to be run as root at startup, so its highly recommended
-    to make them load on boot as root. To do so, you need to put them to /etc/rc.local file. But at the same
-    time you need to put oc1070.sh in Startup Programs too.
+    to make them load on boot as root. To do so, you need to put them to /etc/rc.local file.
+    
+    #!/bin/sh -e
+    #
+    # rc.local
+    #
+    # This script is executed at the end of each multiuser runlevel.
+    # Make sure that the script will "exit 0" on success or any other
+    # value on error.
+    #
+    # In order to enable or disable this script just change the execution
+    # bits.
+    #
+    # By default this script does nothing.
+
+    /home/syunik4/Desktop/0.3.4b/oc1070.sh
+    exit 0
+    
+    
+    But at the same time you need to put oc1070.sh in Startup Programs too.
 
 Good Luck!
 
